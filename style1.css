@@ -1,0 +1,23 @@
+body{
+  background:#2ecc71;
+  url:("https://tinyurl.com/2p9h9rr6") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto"
+  -webkit-font-smoothing:antialised;
+}
+body::before{
+  z-index:-1;
+  content:' ';
+  position: fixed;
+  top:0;
+  left: 0;
+  background: #2ecc71;
+
+}
+.form{
+  position: absolute;;
+  top:50%
+  left:50%
+  background:#ffffff;
+  
+}
